@@ -1,4 +1,4 @@
-# Driver Drowsiness Detection System 🚗👁️
+# Driver Drowsiness Detection System 🏍️👁️
 
 A real-time **driver drowsiness detection system** based on **eye behavior analysis** using **MediaPipe FaceMesh** and **Eye Aspect Ratio (EAR)**.  
 The system works reliably **with spectacles and without spectacles** and provides **voice alerts** when drowsiness is detected.
@@ -89,30 +89,30 @@ Ensure proper lighting for best detection accuracy
 
 ## 🧪 Detection Logic
 
-EAR Threshold: Determines whether eyes are open or closed
-
-Time Threshold: Drowsiness is detected only if eyes remain closed for a predefined duration
-
-Speech Lock: Ensures only one alert per drowsiness event
+    EAR Threshold: Determines whether eyes are open or closed
+    
+    Time Threshold: Drowsiness is detected only if eyes remain closed for a predefined duration
+    
+    Speech Lock: Ensures only one alert per drowsiness event
 ---
 
 ## ⚠️ Limitations
 
-Performance depends on lighting conditions
-
-Designed for single-face detection
-
-Requires Windows OS for voice alert feature
+    Performance depends on lighting conditions
+    
+    Designed for single-face detection
+    
+    Requires Windows OS for voice alert feature
 ---
 
 ## 🚀 Future Enhancements
 
-Yawning detection
-
-Head pose estimation
-
-Night-time detection using IR camera
-
-Mobile or embedded system deployment
-
-Integration with smart helmet or vehicle system
+    Yawning detection
+    
+    Head pose estimation
+    
+    Night-time detection using IR camera
+    
+    Mobile or embedded system deployment
+    
+    Integration with smart helmet or vehicle system
